@@ -1,0 +1,19 @@
+/*Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário.*/
+
+#include <stdio.h>
+ 
+int main() {
+    
+    int n, QuanthoraT;
+    double VhoraT,salario;
+    
+    scanf("%d", &n);
+    scanf("%d", &QuanthoraT);
+    scanf("%lf", &VhoraT);
+    
+    salario = QuanthoraT * VhoraT;
+    
+    printf("NUMBER = %d\n", n);
+    printf("SALARY = U$ %.2lf\n", salario);
+    
+}
