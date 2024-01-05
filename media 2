@@ -1,0 +1,19 @@
+/*Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5*/
+
+#include <stdio.h>
+
+int main(){
+    
+    double a, b, c;
+    double media;
+    
+    scanf("%lf", &a);
+     scanf("%lf", &b);
+      scanf("%lf", &c);
+      
+      media = ((a*2)+(b*3)+(c*5))/(2+3+5);
+      
+      printf("MEDIA = %.1lf\n", media);
+}
+  
+}
